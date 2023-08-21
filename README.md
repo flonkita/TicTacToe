@@ -11,24 +11,22 @@ Les scores de chaque joueur sont suivis et affichés.
 ## Comment jouer
 
 Clonez ce dépôt sur votre ordinateur :
-
 git clone https://github.com/votre-utilisateur/nom-du-repo.git
+
 Accédez au répertoire du projet :
+cd morpion
 
-cd nom-du-repo
 Installez les dépendances nécessaires :
-
 npm install
-Lancez l'application :
 
+Lancez l'application :
 npm start
+
 Ouvrez votre navigateur et accédez à http://localhost:3000 pour jouer au jeu du Morpion.
 
 ## Structure du projet
 
-java
-Copy code
-nom-du-repo/
+morpion/
 ├── src/
 │   ├── components/
 │   │   ├── Board.js
@@ -42,6 +40,9 @@ nom-du-repo/
 ├── README.md
 ├── package.json
 └── .gitignore
+
+
+
 Le dossier src/components contient les composants réutilisables pour le jeu.
 App.js est le composant principal qui assemble les différents composants pour créer le jeu.
 public/index.html est le point d'entrée de l'application.
